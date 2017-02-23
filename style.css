@@ -1,9 +1,11 @@
 html {
     font-size: 62.5%;
+    background: linear-gradient(to bottom, #f7f7f7, #ccc);
+    height: 100vh;
 }
 
 body {
     font-size: 1.8rem;
-    background: #f7f7f7;
     color: #222;
+    font-family: Helvetica;
 }
