@@ -9455,6 +9455,9 @@ function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { de
 
 exports.default = _react2.default.createClass({
     displayName: 'App',
+    componentDidMount: function componentDidMount() {
+        console.log('Hello from App module! I mounted!');
+    },
     render: function render() {
         return _react2.default.createElement(
             'div',
