@@ -1,4 +1,4 @@
-.help { background-repeat: no-repeat; }
+.help { background-repeat: no-repeat !important; }
 .cm-s-default span.cm-property { color: #ffefc6; }
 
 
