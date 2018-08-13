@@ -1,7 +1,7 @@
 .help {
-     background-repeat: no-repeat;
+     background-repeat: no-repeat !important;
 }
- .cm-s-default span.cm-property {
+.cm-s-default span.cm-property {
      color: #ffefc6;
 }
  #l10n-footer{

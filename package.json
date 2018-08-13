@@ -4,7 +4,8 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "start": "webpack-dev-server --inline --content-base ."
+    "start": "webpack-dev-server --inline --content-base .",
+    "jenkins": "./node_modules/.bin/uglifycss jenkins-dark.css > jenkins-dark-min.css"
   },
   "repository": {
     "type": "git",
@@ -20,7 +21,8 @@
   "dependencies": {
     "react": "^15.4.2",
     "react-dom": "^15.4.2",
-    "react-router": "^3.0.2"
+    "react-router": "^3.0.2",
+    "uglifycss": "^0.0.29"
   },
   "devDependencies": {
     "babel-core": "^6.23.1",
