@@ -1301,7 +1301,7 @@ table.stripped tr:nth-child(2n){
 table.stripped-even tr:hover,table.stripped-odd tr:hover,table.stripped tr:hover{
     background-color:hsla(0,0%,100%,.1)!important
 }
-table#computers td{
+table#computers td .model-link{
     font-size:2em
 }
 .dashboard table#projectstatus .job-status-aborted-anime td,.dashboard table#projectstatus .job-status-aborted td,.dashboard table#projectstatus .job-status-blue-anime td,.dashboard table#projectstatus .job-status-blue td,.dashboard table#projectstatus .job-status-disabled td,.dashboard table#projectstatus .job-status-green-anime td,.dashboard table#projectstatus .job-status-green td,.dashboard table#projectstatus .job-status-grey td,.dashboard table#projectstatus .job-status-nobuilt-anime td,.dashboard table#projectstatus .job-status-nobuilt td,.dashboard table#projectstatus .job-status-red-anime td,.dashboard table#projectstatus .job-status-red td,.dashboard table#projectstatus .job-status- td,.dashboard table#projectstatus .job-status-yellow-anime td,.dashboard table#projectstatus .job-status-yellow td,table#computers td{
