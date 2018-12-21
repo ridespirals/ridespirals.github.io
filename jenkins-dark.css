@@ -1498,3 +1498,21 @@ form[name=login] .yui-button{
 .timeline-container,.timeline-container .timeline-event-icon>img{
     -webkit-filter:invert(80%)
 }
+
+.manage-option:hover {
+    background: #333 !important;
+}
+.manage-option dl dd {
+    color: #eee !important;
+}
+
+span.cm-property {
+    color: #F56991 !important;
+}
+
+#jenkins .yuimenuitem {
+    padding: 0px !important;
+}
+.yui-skin-sam .yuimenu .bd li:hover {
+    background-color: #222 !important;
+}

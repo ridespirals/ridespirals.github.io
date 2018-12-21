@@ -5,7 +5,7 @@
   "main": "index.js",
   "scripts": {
     "start": "webpack-dev-server --inline --content-base .",
-    "jenkins": "./node_modules/.bin/uglifycss jenkins-dark.css > jenkins-dark-min.css"
+    "jenkins": "./node_modules/.bin/uglifycss jenkins-dark.css > jenkins-dark.min.css"
   },
   "repository": {
     "type": "git",
