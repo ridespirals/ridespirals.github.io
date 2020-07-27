@@ -1210,7 +1210,8 @@ td>img{
     background-color:#3183c4
 }
 #side-panel{
-    background:#1a1a1a
+    background:#1a1a1a;
+    border-color: #1a1a1a;
 }
 #side-panel .pane-frame{
     border:1px solid #333;
@@ -1231,8 +1232,12 @@ td>img{
     border:1px solid #1a1a1a;
     color:silver
 }
+#side-panel .pane-content tr {
+    border-color: #1a1a1a !important;
+}
 #main-panel,#side-panel table.stripped-even tr:nth-child(2n),#side-panel table.stripped-odd tr:nth-child(odd),#side-panel table.stripped tr:nth-child(2n){
     background:#1a1a1a
+    border: none;
 }
 #main-panel{
     padding-bottom:25px
