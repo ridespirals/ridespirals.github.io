@@ -1509,6 +1509,9 @@ form[name=login] .yui-button{
 .manage-option dl dd {
     color: #eee !important;
 }
+.manage-option a:hover, .manage-option a:focus {
+    background-color: #333 !important;
+}
 
 span.cm-property {
     color: #F56991 !important;
